@@ -37,7 +37,7 @@ export default function App() {
           </Text>
           <CustomButton
             title="Continue with Email"
-            handlePress={() => {}}
+            // handlePress={() => {}}
             containerStyles="w-full mt-7"
           />
           {/* <Link href='/home' className="items-center justify-center h-[100px] w-[100px] align-middle text-xl bg-white">hello</Link> */}
