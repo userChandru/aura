@@ -26,14 +26,8 @@ const RootLayout = () => {
   if(!fontsLoaded && !error) return null;
 
   return (
-    <Stack
-      screenOptions={{
-        headerStyle: { backgroundColor: "#f4511e" },
-        headerTintColor: "#fff",
-        headerTitleStyle: { fontWeight: "bold" },
-      }}
-    >
-      <Stack.Screen name="profile" options={{ headerShown: true }} />
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
     </Stack>
   );
 };
